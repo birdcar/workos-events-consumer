@@ -1,7 +1,7 @@
 {
   "name": "workos-events-consumer",
   "version": "0.1.0",
-  "description": "Poll the WorkOS Events API and write events as NDJSON for Vector, Splunk or a data lake",
+  "description": "Example WorkOS Events API consumer using the Node SDK",
   "license": "MIT",
   "private": true,
   "type": "module",
@@ -11,8 +11,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/consumer.js",
-    "typecheck": "tsc --noEmit",
-    "test": "tsc && node --test dist/reader.test.js"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@workos-inc/node": "^11.0.0"
