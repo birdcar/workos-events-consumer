@@ -2,6 +2,7 @@
   "name": "workos-events-consumer",
   "version": "0.1.0",
   "description": "Poll the WorkOS Events API and write events as NDJSON for Vector, Splunk or a data lake",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "engines": {
